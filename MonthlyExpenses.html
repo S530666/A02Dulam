@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link type ="text/css" href="MonthlyExpenses.css" rel="stylesheet" /> 
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+            </script>
+            
+            <script type="text/javascript" src="Calc.js"></script>
+            <title>Santhosh</title>
+    </head>
+    <body>
+        <ul class="topnav">
+                        <li><a>My Site</a></li>
+                <li><a  href="Dulam_Santhosh.html">Home</a></li>
+                <li><a class="active" href="#MonthlyExpenses">Expenses</a></li>
+                <li><a  href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="container">
+                <form>
+                   <img class="img" src=".facebook_1505597921780.jpg" alt="Paris" width="100" height="100">
+                   <header class="header1"> <h1>Calculating Monthly Expenses</h1></header>
+                   <br><br>
+                   <label><b>Enter your House rent(in Dollars):</b></label>
+                   <input type="text" id="Hrent" placeholder="Please enter amount in Dollars." >
+                   <br><br>
+                   <label><b>Enter amount spent for groceries(in Dollars):</b></label>
+                   <input type="text" id="groc" placeholder="Please enter amount in Dollars." >
+                   <br><br>
+                   <label><b>Enter your Internet Bill:</b></label>
+                   <input type="text" id="internet" placeholder="Please enter amount in Dollars." > 
+                   <br><br>
+                   <label><b>Enter your TV Bill:</b></label>
+                   <input type="text" id="TV" placeholder="Please enter amount in Dollars."  >
+                   <br><br>
+                   <label><b>Enter your electricity Bill:</b></label>
+                   <input type="text" id="power" placeholder="Please enter amount in Dollars." >
+                   <br><br>
+                   <label><b>Miscellaneous</b></label>
+                   <input type="text" id="misc" placeholder="Please enter amount in Dollars." >
+                   <br><br>
+                   <button type="button" onclick="sum()">Submit</button>
+                   <br><br>
+                   <label><b>Your Total Monthly Expenses are:</b></label>
+                   <input type="text" id="result">
+                   <br><br>
+                   <button type="button" onclick="reset()">ReCaluculate</button>
+
+                </form> 
+        </div>
+        <footer> 
+                        <h4>By Santhosh Dulam.&copy; Copyright 2017. All rights reserved.</h4>
+        </footer>
+                  
+    </body>
+</html>
